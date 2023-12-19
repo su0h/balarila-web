@@ -25,6 +25,11 @@
     "fix:scsslint": "stylelint src/**/*.scss --fix",
     "prepare": "husky install"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,ts,tsx}": "eslint --fix",
     "src/**/*.scss": "stylelint --fix"
