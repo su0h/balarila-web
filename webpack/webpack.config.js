@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', '.png'],
   },
   module: {
     rules: [
@@ -16,6 +16,13 @@ module.exports = {
             loader: 'babel-loader',
           },
         ],
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader',
+        options: {
+          name: './src/assets/[name].[ext]',
+        },
       },
     ],
   },

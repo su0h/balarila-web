@@ -1,7 +1,8 @@
 import React, { FC } from 'react';
+import { HomePage } from './pages';
 
 const App: FC = () => {
-  return <h1> React Test </h1>;
+  return <HomePage />;
 };
 
 export default App;
