@@ -1,7 +1,14 @@
 import React, { FC } from 'react';
+import { HomePage } from './components/pages';
+
+import { ChakraProvider } from '@chakra-ui/react';
 
 const App: FC = () => {
-  return <h1> React Test </h1>;
+  return (
+    <ChakraProvider>
+      <HomePage />
+    </ChakraProvider>
+  );
 };
 
 export default App;

@@ -14,10 +14,13 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "paths": {
+      "*": ["./src/types/*"]
+    }
   },
   "exclude": ["node_modules"],
-  "include": ["setup-tests.ts", "jest.config.ts"],
+  "include": ["setup-tests.ts", "jest.config.ts", "src", "types/*"],
   "path": {
     "setup-tests": "setup-tests.ts"
   }
