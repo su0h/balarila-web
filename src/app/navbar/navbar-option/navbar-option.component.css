@@ -1,0 +1,18 @@
+button {
+    height: 100%;
+    min-width: 130px;
+    background-color: var(--balarila-primary-green);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+button.is-selected {
+    color: var(--balarila-secondary-green);
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer !important;
+}

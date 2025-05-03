@@ -1,1 +1,12 @@
-<p>navbar works!</p>
+<div class="navbar">
+    <div class="balarila-logo">BALARILA</div>
+    <div style="width: fit-content;">
+        @for (option of options; track $index) {
+            <app-navbar-option 
+                [label]="option" 
+                [isSelected]="isSelectedOption(option)" 
+                (clickEvent)="optionClickHandler($event)">
+            </app-navbar-option>
+        }
+    </div>
+</div>

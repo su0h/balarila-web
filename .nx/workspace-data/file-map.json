@@ -1,0 +1,253 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.1",
+  "pathMappings": {
+    "@spartan-ng/ui-button-helm": [
+      ".\\libs/ui/ui-button-helm/src/index.ts"
+    ],
+    "@spartan-ng/ui-alert-helm": [
+      ".\\libs/ui/ui-alert-helm/src/index.ts"
+    ],
+    "@spartan-ng/ui-icon-helm": [
+      ".\\libs/ui/ui-icon-helm/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "balarila": [
+        {
+          "file": ".editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": ".postcssrc.json",
+          "hash": "8859462536152254982"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "11934160580685414355"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "README-old.md",
+          "hash": "12477613198701321382"
+        },
+        {
+          "file": "README.md",
+          "hash": "6533497897559065085"
+        },
+        {
+          "file": "angular.json",
+          "hash": "16654945142865107754"
+        },
+        {
+          "file": "components.json",
+          "hash": "3089158842223537119"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "17037458676062391556"
+        },
+        {
+          "file": "libs/ui/ui-alert-helm/src/index.ts",
+          "hash": "3791802788218093072"
+        },
+        {
+          "file": "libs/ui/ui-alert-helm/src/lib/hlm-alert-description.directive.ts",
+          "hash": "10054372904229832760"
+        },
+        {
+          "file": "libs/ui/ui-alert-helm/src/lib/hlm-alert-icon.directive.ts",
+          "hash": "12879871385254423897"
+        },
+        {
+          "file": "libs/ui/ui-alert-helm/src/lib/hlm-alert-title.directive.ts",
+          "hash": "6737690058252919623"
+        },
+        {
+          "file": "libs/ui/ui-alert-helm/src/lib/hlm-alert.directive.ts",
+          "hash": "6674817542479002104"
+        },
+        {
+          "file": "libs/ui/ui-button-helm/src/index.ts",
+          "hash": "17251273102492170138"
+        },
+        {
+          "file": "libs/ui/ui-button-helm/src/lib/hlm-button.directive.ts",
+          "hash": "11068329498313394712"
+        },
+        {
+          "file": "libs/ui/ui-button-helm/src/lib/hlm-button.token.ts",
+          "hash": "7896754714560199098"
+        },
+        {
+          "file": "libs/ui/ui-icon-helm/src/index.ts",
+          "hash": "13072002477516072914"
+        },
+        {
+          "file": "libs/ui/ui-icon-helm/src/lib/hlm-icon.directive.ts",
+          "hash": "1190767095705292823"
+        },
+        {
+          "file": "libs/ui/ui-icon-helm/src/lib/hlm-icon.token.ts",
+          "hash": "1780499468245078594"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "18295377193910534268"
+        },
+        {
+          "file": "package.json",
+          "hash": "6455862131337483317",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@spartan-ng/cli",
+            "npm:@types/jasmine",
+            "npm:jest",
+            "npm:jest-preset-angular",
+            "npm:tailwind-merge",
+            "npm:tailwindcss-animate",
+            "npm:typescript",
+            "npm:@angular/cdk",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@ng-icons/core",
+            "npm:@spartan-ng/brain",
+            "npm:@tailwindcss/postcss",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:postcss",
+            "npm:rxjs",
+            "npm:tailwindcss",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "setup-jest.ts",
+          "hash": "535401426123604156"
+        },
+        {
+          "file": "src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "11958735616642380711"
+        },
+        {
+          "file": "src/app/app.component.spec.ts",
+          "hash": "14946050168058341430"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "9805130577837641268"
+        },
+        {
+          "file": "src/app/app.config.ts",
+          "hash": "16561019206697382666"
+        },
+        {
+          "file": "src/app/app.routes.ts",
+          "hash": "15346078228918115575"
+        },
+        {
+          "file": "src/app/homepage/homepage.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/homepage/homepage.component.html",
+          "hash": "11311776821244018697"
+        },
+        {
+          "file": "src/app/homepage/homepage.component.spec.ts",
+          "hash": "8574619510280294431"
+        },
+        {
+          "file": "src/app/homepage/homepage.component.ts",
+          "hash": "595420109009339889"
+        },
+        {
+          "file": "src/app/main-layout/main-layout.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/main-layout/main-layout.component.html",
+          "hash": "9894231646928150310"
+        },
+        {
+          "file": "src/app/main-layout/main-layout.component.spec.ts",
+          "hash": "4756936756584899640"
+        },
+        {
+          "file": "src/app/main-layout/main-layout.component.ts",
+          "hash": "2757593636082605230"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.html",
+          "hash": "16843923283974370008"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.spec.ts",
+          "hash": "18132722331439589879"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.ts",
+          "hash": "1273863586510754833"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "12717476138228155268"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "4169901790405087765"
+        },
+        {
+          "file": "src/styles.css",
+          "hash": "2343064442245883025"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "14560978611694835822"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "187847006674456812"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
