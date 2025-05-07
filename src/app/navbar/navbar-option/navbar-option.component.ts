@@ -1,5 +1,6 @@
 import { Component, Input, Output } from '@angular/core';
 import { EventEmitter } from '@angular/core';
+import { NavbarOption } from '../navbar.component';
 
 @Component({
   selector: 'app-navbar-option',
@@ -9,9 +10,9 @@ import { EventEmitter } from '@angular/core';
   styleUrl: './navbar-option.component.css'
 })
 export class NavbarOptionComponent {
-  @Input() label!: string;
+  @Input() label!: NavbarOption;
   @Input() isSelected: boolean = false;
-  @Output() clickEvent = new EventEmitter<string>();
+  @Output() clickEvent = new EventEmitter<NavbarOption>();
 
   clickHandler() {
     this.clickEvent.emit(this.label);
